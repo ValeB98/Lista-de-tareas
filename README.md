@@ -21,4 +21,4 @@ La aplicación web permite agregar tareas, marcarlas como hechas (lo que se fest
 
 ## Nota
 
-Dejé este proyecto tal como lo hice originalmente para mostrar mi progreso con el tiempo. No incluye almacenamiento local ni diseño responsive aún, pero espero pronto estar mejorando para poder lograr esto y mucho más.
+Dejé este proyecto tal como lo hice originalmente para mostrar mi progreso con el tiempo. No incluye almacenamiento local ni diseño responsive elaborado aún, pero espero pronto estar mejorando para poder lograr esto y mucho más.
