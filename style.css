@@ -1,0 +1,73 @@
+/*estilos generales del cuerpo de la pagina*/
+body {
+  font-family: sans-serif; /*fuente*/
+  background: #4d4d4d; /*fondo gris oscuro*/
+  padding: 20px; /*espaciado interior general*/
+  max-width: 600px; /*ancho maximo centrado*/
+  margin: auto; /*centrado horizontal*/
+}
+
+/*titulo principal*/
+h1 {
+  text-align: center; /*centrar texto*/
+  color: rgb(167, 84, 245); /*color purpura claro*/
+}
+
+/*formulario para añadir tareas*/
+#task-form {
+  display: flex; /*coloca los elementos uno al lado del otro (en linea)*/
+  gap: 10px; /*separacion entre input y boton*/
+  margin-bottom: 20px; /*espacio debajo del formulario*/
+}
+
+/*campo de texto para escribir la tarea*/
+input[type="text"] {
+  flex: 1; /*ocupa todo el espacio disponible*/
+  padding: 10px; /*relleno interno*/
+  font-size: 1rem; /*tamaño de letra estandar*/
+  color: rgb(93, 8, 173); /*color morado oscuro*/
+}
+
+/*botones generales (agregar, hecho)*/
+button {
+  padding: 10px; /*relleno interno*/
+  background-color: #6e0dcf; /*color de fondo*/
+  border: none; /*sin borde*/
+  color: white; /*texto blanco*/
+  font-weight: bold; /*texto en negrita*/
+  cursor: pointer; /*cursor de mano al pasar encima*/
+}
+
+/*lista general de tareas*/
+ul {
+  list-style: none; /*sin viñetas*/
+  text-align: center; /*centrar contenido*/
+  padding: 0; /*sin espaciado interno*/
+  color: rgb(160, 67, 247); /*color morado claro para el texto*/
+}
+
+/*estilo para cada tarea (li)*/
+li {
+  background: rgb(40, 1, 70); /*color de fondo*/
+  padding: 10px; /*relleno interior*/
+  margin-bottom: 10px; /*espacio entre tareas*/
+  border-left: 4px solid #6d00a8; /*borde decorativo a la izquierda*/
+  display: flex; /*mostrar elementos en linea*/
+  justify-content: space-between; /*separar elementos en los extremos*/
+  align-items: center; /*alinear verticalmente*/
+}
+
+/*estilo cuando una tarea esta marcada como hecha*/
+li.done {
+  text-decoration: line-through; /*texto tachado*/
+  opacity: 0.5; /*transparencia del elemento*/
+}
+
+/*estilo especifico del boton de eliminar*/
+.delete {
+  background: red; /*color de fondo*/
+  border: none; /*sin borde*/
+  color: white; /*texto blanco*/
+  padding: 5px 10px; /*relleno interior*/
+  cursor: pointer; /*cursor de mano*/
+}
